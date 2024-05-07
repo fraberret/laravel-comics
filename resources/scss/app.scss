@@ -1,1 +1,15 @@
 @import '~bootstrap/scss/bootstrap';
+
+
+
+.imgholder {
+
+    height: 200px;
+    width: 200px;
+
+    & img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+}
