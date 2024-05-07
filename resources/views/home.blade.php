@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>HomePage</h1>
+<div class="jumbotron">
+    <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
+</div>
 
 <div class="products_section bg-dark">
 

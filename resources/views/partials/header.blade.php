@@ -1,6 +1,13 @@
 <header>
-    <div class="container d-flex justify-content-between">
-        <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="">
+    <div class="banner">
+        <div class="container">
+            <p class="text-end">Lorem ipsum .</p>
+        </div>
+    </div>
+    <div class="container py-3 d-flex justify-content-between align-items-center">
+        <div class="logo">
+            <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="">
+        </div>
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
