@@ -1,5 +1,8 @@
 @import '~bootstrap/scss/bootstrap';
 
+.bg_primary {
+    background-color: #0282f9;
+}
 
 .jumbotron {
     height: 300px;
@@ -14,7 +17,7 @@
 
 
 .banner {
-    background-color: #0282f9;
+
     color: white;
 }
 
@@ -30,4 +33,8 @@
         height: 100%;
     }
 
+}
+
+.series {
+    top: -20px;
 }
