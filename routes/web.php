@@ -20,3 +20,12 @@ Route::get('/', function () {
 
     return view('home', compact('products'));
 })->name('home');
+
+
+Route::get('/{id}', function ($id) {
+
+    $comic = config('db')[$id];
+
+
+    return view('comic', compact('comic'));
+})->name('comic');

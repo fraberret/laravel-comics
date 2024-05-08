@@ -1,16 +1,18 @@
 <header>
     <div class="banner bg_primary">
         <div class="container">
-            <p class="text-end">Lorem ipsum .</p>
+            <p class="m-0 text-end">Lorem ipsum .</p>
         </div>
     </div>
     <div class="container d-flex justify-content-between align-items-center">
         <div class="logo">
-            <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="">
+            <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
         </div>
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -43,7 +45,8 @@
                             <a class="nav-link" href="#">NEWS</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 SHOP
                             </a>
                             <ul class="dropdown-menu">
