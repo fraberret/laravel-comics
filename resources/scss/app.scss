@@ -21,6 +21,10 @@
     color: white;
 }
 
+.banner_m {
+
+    height: 100px;
+}
 
 .imgholder {
 
@@ -49,4 +53,17 @@
 .container_sm {
     max-width: 90%;
     margin: auto;
+}
+
+.comic_img {
+    position: absolute;
+    top: 200px;
+}
+
+.green_banner {
+    background-color: green
+}
+
+.bg_lightgrey {
+    background-color: lightgray;
 }
