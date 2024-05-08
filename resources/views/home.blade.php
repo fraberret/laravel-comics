@@ -9,13 +9,14 @@
         <div class=" container-sm py-5 position-relative">
             <span class="series position-absolute bg_primary px-3 py-2  text-white">CURRENT SERIES</span>
             <div class="row gy-3">
-                @foreach ($products as $product)
+                @foreach ($products as $index => $product)
                     <div class="col-2 ">
-                        <div class="imgholder ">
-                            <img class="card-img-top" src="{{ $product['thumb'] }}" alt="">
-                        </div>
-                        <p class="text-white text-uppercase">{{ $product['title'] }}</p>
-
+                        <a href="{{ route('comic', ['id' => $index]) }}">
+                            <div class="imgholder ">
+                                <img class="card-img-top" src="{{ $product['thumb'] }}" alt="">
+                            </div>
+                            <p class="text-white text-uppercase">{{ $product['title'] }}</p>
+                        </a>
                     </div>
                 @endforeach
             </div>
