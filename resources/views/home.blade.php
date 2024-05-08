@@ -1,10 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="jumbotron">
-        <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="">
-    </div>
-
     <div class="products_section bg-dark">
         <div class=" container-sm py-5 position-relative">
             <span class="series position-absolute bg_primary px-3 py-2  text-white">CURRENT SERIES</span>
