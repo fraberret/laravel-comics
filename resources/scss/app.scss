@@ -4,6 +4,10 @@
     background-color: #0282f9;
 }
 
+.cl_primary {
+    color: #0282f9;
+}
+
 .jumbotron {
     height: 300px;
 
@@ -72,9 +76,7 @@
     background-color: lightgray;
 }
 
-footer {
-    background-image: url('../img/footer-bg.jpg');
-}
+
 
 .container_m {
     margin: auto;
@@ -95,4 +97,13 @@ footer {
 .container_xs {
     width: 35%;
     margin: auto;
+}
+
+.up_section {
+    background-image: url('../img/footer-bg.jpg');
+
+}
+
+.border_primary {
+    border-color: #0282f9;
 }
