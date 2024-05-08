@@ -38,3 +38,15 @@
 .series {
     top: -20px;
 }
+
+.section {
+    & img {
+        object-fit: contain;
+        width: 50px;
+    }
+}
+
+.container_sm {
+    max-width: 90%;
+    margin: auto;
+}
