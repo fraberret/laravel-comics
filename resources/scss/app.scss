@@ -56,8 +56,12 @@
 }
 
 .comic_img {
+
+    width: 230px;
     position: absolute;
     top: 200px;
+
+    & img {}
 }
 
 .green_banner {
@@ -66,4 +70,29 @@
 
 .bg_lightgrey {
     background-color: lightgray;
+}
+
+footer {
+    background-image: url('../img/footer-bg.jpg');
+}
+
+.container_m {
+    margin: auto;
+    width: 90%;
+    height: 500px;
+
+    & img {
+        width: 50%;
+        object-fit: cover;
+
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+
+.container_xs {
+    width: 35%;
+    margin: auto;
 }
